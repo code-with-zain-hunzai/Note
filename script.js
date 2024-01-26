@@ -43,6 +43,7 @@ todoInput.addEventListener("keypress", (event) => {
 
             todoInput.value = "";
 
+
         }
     }
 })
