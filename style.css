@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(245, 245, 245);
+ }
+
+ #main-Div {
+     height: 22em;
+     width: 45em;
+     background-color: rgb(245, 245, 245);
+     justify-content: center;
+     margin: 20vh auto;
+     border-radius: 12px;
+ }
+
+ #todo-input {
+     width: 90%;
+     align-items: center;
+     margin: 30px 30px 0px;
+     height: 3em;
+     border-radius: 12px;
+     font-size: 20px;
+     border: none;
+     background-color: rgb(245, 245, 245);
+     outline: none;
+
+ }
+
+ ul {
+     width: 90%;
+     list-style: none;
+     padding: 0;
+     margin-left: 35px;
+     font-size: larger;
+     position: static;
+     justify-content: space-between;
+
+ }
+
+ li {
+     display: flex;
+     align-items: center;
+     margin-top: 20px;
+     height: 30px;
+
+ }
+
+ li:hover {
+     background-color: rgb(204, 219, 219);
+     border-radius: 12px;
+     transition: 0.3 ease-in-out;
+
+ }
+
+
+ .complete {
+     text-decoration: line-through;
+ }
+
+ #textspan {
+     margin-left: 5px;
+ }
+
+ i {
+     margin-left: 82%;
+ }
+
+ #tag-Icon {
+     margin-left: 70%;
+ }
+
+ .deleteIcon {
+     margin-left: auto;
+     font-size: 16px;
+     cursor: pointer;
+ }
+
+ .deleteIcon:hover {
+     color: red;
+     transition: 0.2s ease-in-out;
+ }
