@@ -36,9 +36,7 @@ todoInput.addEventListener("keypress", (event) => {
                     todoList.removeChild(newTodo);
                 }
             });
-
             newTodo.appendChild(deleteIcon)
-
             todoList.appendChild(newTodo);
             todoInput.value = "";
         }
